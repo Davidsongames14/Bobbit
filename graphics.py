@@ -12,5 +12,8 @@ graphics_strings = {
 def render_map(map):           #renders the map
     for i in range(map["size"][0]):
         for j in range(map["size"][1]:
-            print(graphics_strings[map[(x, y)]], end="")
+            if (i, j) in map.keys():
+                print(graphics_strings[map[(i, j)]], end="")
+            else:
+                print("\033[0m  ", end="")
         print("\033[0m")
