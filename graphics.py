@@ -1,5 +1,4 @@
 graphics_strings = {
-    "blank": "\033[0m  ",                   #no color
     "wall": "\033[100m  ",                  #gray
     "player": "\033[44m  ",                 #blue
     "friend": "\033[42m  ",                 #green
