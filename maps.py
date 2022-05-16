@@ -1,4 +1,4 @@
-#size: (width, height)
+# size: (width, height)
 
 map_test = {
     "size": (4, 5),
