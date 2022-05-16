@@ -10,10 +10,7 @@ graphics_strings = {
 }
 
 def render_map(map):           #renders the map
-    for i in map:
-        for j in i:
-            if j[0] == "blank":
-                print(graphics_strings[j[1]], end="")
-            else:
-                print(graphics_strings[j[0]], end="")
+    for i in range(map["size"][0]):
+        for j in range(map["size"][1]:
+            print(graphics_strings[map[(x, y)]], end="")
         print("\033[0m")
