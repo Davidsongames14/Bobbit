@@ -1,8 +1,8 @@
 from random import randint
 
-def math_question(difficulty):          #asks a math question to determine success/failure of certain task
+def math_question(difficulty):          # asks a math question to determine success/failure of certain task
     if difficulty < 2:
-        operation = randint(1, 2)       #difficulty can be >= 0
+        operation = randint(1, 2)       # difficulty can be >= 0
     elif difficulty < 4:
         operation = randint(1, 3)
     else:

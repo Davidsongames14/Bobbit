@@ -1,5 +1,6 @@
-map_test = [[["blank","wall"], ["blank","wall"], ["blank", "wall"], ["blank", "wall"]],             
-    [["blank", "wall"], ["player", "blank"], ["blank", "blank"], ["blank", "wall"]], 
-    [["blank", "wall"], ["blank", "blank"], ["blank", "blank"], ["blank", "wall"]],
-    [["blank", "wall"], ["blank", "blank"], ["blank", "blank"], ["blank", "wall"]],
-    [["blank", "wall"], ["blank", "wall"], ["blank", "wall"], ["blank", "wall"]]]
+# size: (width, height)
+
+map_test = {
+    "size": (4, 5),
+    (1, 2): "player"
+}
